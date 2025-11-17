@@ -1,0 +1,13 @@
+[project]
+name = "youtubetldr"
+version = "0.1.0"
+description = "YouTube TLDR - AI-powered YouTube video summarization"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.0.0",
+    "pytest-cov>=4.1.0",
+]
